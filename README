@@ -1,4 +1,4 @@
-manages background processes, hopefully soon including the ability tio restart on failure
+manages background processes, hopefully soon including the ability to restart on failure
 
 I'm still working out how this should actually work; the current version tracks child processes by local file $PROCESSNAME.status
 Probably next iteration will handle keep-alive function via helper script that just loops and keeps at least one copy live until the helper is killed (does killing a script kill its child?)
